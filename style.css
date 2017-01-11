@@ -1,0 +1,47 @@
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  border-right: 1px solid gray;
+  padding: 2px;
+}
+
+header {
+  border: 1px solid gray;
+  background-color: pink;
+  clear: both;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+main{
+  padding: 20px;
+}
+main article {
+  width: 48%;
+  float: left;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 10px;
+}
+
+article img {
+  width: 200px;
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
